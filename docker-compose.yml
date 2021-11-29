@@ -17,7 +17,7 @@ services:
         build:
             context: ./
             dockerfile: Dockerfile
-        restart: unless-stoped
+        restart: unless-stopped
         environment:
             BOT_USERNAME: 
             BOT_TOKEN: 
